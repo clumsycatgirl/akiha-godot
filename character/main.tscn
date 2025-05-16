@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://plixonlto4yt"]
+
+[ext_resource type="PackedScene" uid="uid://c10ouq3wr4ahy" path="res://character/akiha.tscn" id="1_f514l"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Akiha" parent="." instance=ExtResource("1_f514l")]
