@@ -1,4 +1,4 @@
-[gd_scene load_steps=80 format=3 uid="uid://c10ouq3wr4ahy"]
+[gd_scene load_steps=92 format=3 uid="uid://c10ouq3wr4ahy"]
 
 [ext_resource type="Texture2D" uid="uid://o3ytsw2olju" path="res://assets/characters/akiha/aki00_000.png" id="1_ju2jg"]
 [ext_resource type="Script" uid="uid://cjefal8k5pxor" path="res://scripts/player/player.gd" id="1_ofn5g"]
@@ -31,15 +31,24 @@
 [ext_resource type="Texture2D" uid="uid://b4h5gvsbiby26" path="res://assets/characters/akiha/aki02_009.png" id="28_mw2v6"]
 [ext_resource type="Texture2D" uid="uid://d226lue2g6jye" path="res://assets/characters/akiha/aki02_010.png" id="29_d38mc"]
 [ext_resource type="Texture2D" uid="uid://dyqytqhqxvgwl" path="res://assets/characters/akiha/aki03_000.png" id="30_omlrw"]
+[ext_resource type="Texture2D" uid="uid://bvjuepvaj11w" path="res://assets/characters/akiha/aki02_011.png" id="31_nvu88"]
 [ext_resource type="Texture2D" uid="uid://dx8h0tc0vqtim" path="res://assets/characters/akiha/aki03_001.png" id="31_w88af"]
+[ext_resource type="Texture2D" uid="uid://bl7v25jqo7iek" path="res://assets/characters/akiha/aki02_012.png" id="32_cuxmf"]
 [ext_resource type="Texture2D" uid="uid://cjg8bj5g72ugy" path="res://assets/characters/akiha/aki03_002.png" id="32_wyjoe"]
 [ext_resource type="Texture2D" uid="uid://bxiaske2fook2" path="res://assets/characters/akiha/aki03_003.png" id="33_dntqd"]
+[ext_resource type="Texture2D" uid="uid://b5ml6y8a0v6yr" path="res://assets/characters/akiha/aki02_013.png" id="33_wv2f5"]
 [ext_resource type="Texture2D" uid="uid://dykllsngned3k" path="res://assets/characters/akiha/aki03_004.png" id="34_1h84x"]
+[ext_resource type="Texture2D" uid="uid://c7bseea85woyx" path="res://assets/characters/akiha/aki02_014.png" id="34_5ttli"]
+[ext_resource type="Texture2D" uid="uid://5ae0idpr5my7" path="res://assets/characters/akiha/aki02_015.png" id="35_ghkb3"]
 [ext_resource type="Texture2D" uid="uid://biti3hlodhvyq" path="res://assets/characters/akiha/aki03_005.png" id="35_pvepx"]
+[ext_resource type="Texture2D" uid="uid://bpucogod47eef" path="res://assets/characters/akiha/aki02_016.png" id="36_0bnhn"]
 [ext_resource type="Texture2D" uid="uid://tu5ijeje3y6x" path="res://assets/characters/akiha/aki03_006.png" id="36_w4nsh"]
 [ext_resource type="Texture2D" uid="uid://wxh3mvr1ydju" path="res://assets/characters/akiha/aki03_007.png" id="37_dumo3"]
+[ext_resource type="Texture2D" uid="uid://c5dg6rnix16rn" path="res://assets/characters/akiha/aki02_017.png" id="37_k5noe"]
 [ext_resource type="Texture2D" uid="uid://gdgunmd3usr7" path="res://assets/characters/akiha/aki03_008.png" id="38_5hlmw"]
+[ext_resource type="Texture2D" uid="uid://c0usicsxrxmhp" path="res://assets/characters/akiha/aki02_018.png" id="38_237oy"]
 [ext_resource type="Texture2D" uid="uid://bhbmx5b8r2pxf" path="res://assets/characters/akiha/aki03_009.png" id="39_6mlmy"]
+[ext_resource type="Texture2D" uid="uid://ceyqek0wlo3xr" path="res://assets/characters/akiha/aki02_019.png" id="39_olrw2"]
 [ext_resource type="Texture2D" uid="uid://csh4huqeg6j62" path="res://assets/characters/akiha/aki03_010.png" id="40_x25xj"]
 [ext_resource type="Texture2D" uid="uid://c15ffdc0nywmm" path="res://assets/characters/akiha/aki03_011.png" id="41_kgchi"]
 [ext_resource type="Texture2D" uid="uid://ocd6sbc2jlrr" path="res://assets/characters/akiha/aki03_012.png" id="42_qcbc1"]
@@ -70,8 +79,12 @@
 [ext_resource type="Script" uid="uid://b170b3s8gitsa" path="res://scripts/player/states/moves/standing_normal_b.gd" id="67_epq1p"]
 [ext_resource type="Script" uid="uid://dmuaf1hhlew6f" path="res://scripts/player/states/moves/standing_normal_c.gd" id="68_7omsl"]
 [ext_resource type="Script" uid="uid://djtwwhydl6tfm" path="res://scripts/player/states/moves/victory.gd" id="69_l0bjr"]
+[ext_resource type="Script" uid="uid://ctglfurfag3hm" path="res://scripts/player/states/moves/standing_normal_bb.gd" id="78_cuxmf"]
+[ext_resource type="Script" uid="uid://du1gumktj3hcp" path="res://scripts/input_buffer.gd" id="81_wv2f5"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gcpyr"]
+radius = 12.0
+height = 96.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_gcpyr"]
 animations = [{
@@ -175,6 +188,38 @@ animations = [{
 }],
 "loop": true,
 "name": &"standing_normal_b",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_nvu88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_cuxmf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_wv2f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_5ttli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ghkb3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_0bnhn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_k5noe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_237oy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_olrw2")
+}],
+"loop": true,
+"name": &"standing_normal_bb",
 "speed": 5.0
 }, {
 "frames": [{
@@ -405,6 +450,35 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 }
 
+[sub_resource type="Animation" id="Animation_64amb"]
+resource_name = "standing_normal_bb"
+length = 0.333338
+step = 0.0416667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"standing_normal_bb"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0416667, 0.0833333, 0.125, 0.166667, 0.208333, 0.25, 0.291667, 0.333333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+}
+
 [sub_resource type="Animation" id="Animation_omlrw"]
 resource_name = "standing_normal_c"
 length = 0.791671
@@ -469,6 +543,7 @@ _data = {
 &"idle": SubResource("Animation_ju2jg"),
 &"standing_normal_a": SubResource("Animation_sjrrb"),
 &"standing_normal_b": SubResource("Animation_g2lop"),
+&"standing_normal_bb": SubResource("Animation_64amb"),
 &"standing_normal_c": SubResource("Animation_omlrw"),
 &"victory": SubResource("Animation_pbom6")
 }
@@ -480,6 +555,7 @@ script = ExtResource("1_ofn5g")
 shape = SubResource("CapsuleShape2D_gcpyr")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -38)
 sprite_frames = SubResource("SpriteFrames_gcpyr")
 animation = &"idle"
 
@@ -488,51 +564,70 @@ libraries = {
 &"": SubResource("AnimationLibrary_lap2w")
 }
 
+[node name="InputBuffer" type="Node" parent="."]
+script = ExtResource("81_wv2f5")
+metadata/_custom_type_script = "uid://du1gumktj3hcp"
+
 [node name="StateMachine" type="Node2D" parent="." node_paths=PackedStringArray("initial_state")]
 script = ExtResource("64_041t4")
-initial_state = NodePath("PlayerStateIdle")
+initial_state = NodePath("Idle")
 
-[node name="PlayerStateIdle" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="Idle" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
 script = ExtResource("65_u7fv3")
 state_idle = NodePath(".")
-state_standing_normal_a = NodePath("../PlayerStateStandingNormalA")
-state_standing_normal_b = NodePath("../PlayerStateStandingNormalB")
-state_standing_normal_c = NodePath("../PlayerStateStandingNormalC")
-state_victory_hair_flip = NodePath("../PlayerStateVictory")
+state_standing_normal_a = NodePath("../5A")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath("../5BB")
+state_standing_normal_c = NodePath("../5C")
+state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://c773clftoi6qh"
 
-[node name="PlayerStateStandingNormalA" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="5A" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
 script = ExtResource("66_ofn5g")
-state_idle = NodePath("../PlayerStateIdle")
+state_idle = NodePath("../Idle")
 state_standing_normal_a = NodePath(".")
-state_standing_normal_b = NodePath("../PlayerStateStandingNormalB")
-state_standing_normal_c = NodePath("../PlayerStateStandingNormalC")
-state_victory_hair_flip = NodePath("../PlayerStateVictory")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath("../5BB")
+state_standing_normal_c = NodePath("../5C")
+state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://dh3dcgtnrgl88"
 
-[node name="PlayerStateStandingNormalB" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="5B" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
 script = ExtResource("67_epq1p")
-state_idle = NodePath("../PlayerStateIdle")
-state_standing_normal_a = NodePath("../PlayerStateStandingNormalA")
+state_idle = NodePath("../Idle")
+state_standing_normal_a = NodePath("../5A")
 state_standing_normal_b = NodePath(".")
-state_standing_normal_c = NodePath("../PlayerStateStandingNormalC")
-state_victory_hair_flip = NodePath("../PlayerStateVictory")
+state_standing_normal_bb = NodePath("../5BB")
+state_standing_normal_c = NodePath("../5C")
+state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://b170b3s8gitsa"
 
-[node name="PlayerStateStandingNormalC" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="5BB" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
+script = ExtResource("78_cuxmf")
+state_idle = NodePath("../Idle")
+state_standing_normal_a = NodePath("../5A")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath(".")
+state_standing_normal_c = NodePath("../5C")
+state_victory_hair_flip = NodePath("../Victory")
+metadata/_custom_type_script = "uid://ctglfurfag3hm"
+
+[node name="5C" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
 script = ExtResource("68_7omsl")
-state_idle = NodePath("../PlayerStateIdle")
-state_standing_normal_a = NodePath("../PlayerStateStandingNormalA")
-state_standing_normal_b = NodePath("../PlayerStateStandingNormalB")
+state_idle = NodePath("../Idle")
+state_standing_normal_a = NodePath("../5A")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath("../5BB")
 state_standing_normal_c = NodePath(".")
-state_victory_hair_flip = NodePath("../PlayerStateVictory")
+state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://dmuaf1hhlew6f"
 
-[node name="PlayerStateVictory" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="Victory" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
 script = ExtResource("69_l0bjr")
-state_idle = NodePath("../PlayerStateIdle")
-state_standing_normal_a = NodePath("../PlayerStateStandingNormalA")
-state_standing_normal_b = NodePath("../PlayerStateStandingNormalB")
-state_standing_normal_c = NodePath("../PlayerStateStandingNormalC")
+state_idle = NodePath("../Idle")
+state_standing_normal_a = NodePath("../5A")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath("../5BB")
+state_standing_normal_c = NodePath("../5C")
 state_victory_hair_flip = NodePath(".")
 metadata/_custom_type_script = "uid://djtwwhydl6tfm"

@@ -9,12 +9,13 @@ func enter() -> void:
 
 func process_input(event: InputEvent) -> State:
 	super(event)
-	
-	if _handle_press(event, key_a): return state_standing_normal_a
-	if _handle_press(event, key_b): return state_standing_normal_b
-	if _handle_press(event, key_c): return state_standing_normal_c
-	if _handle_press(event, key_hair): return state_victory_hair_flip
-	
+	var input: String = player.input_buffer.get_input()
+	if (input != ''):
+		match input:
+			key_a: return state_standing_normal_a
+			key_b: return state_standing_normal_b
+			key_c: return state_standing_normal_c
+			key_hair: return state_victory_hair_flip
 	return null
 
 func process_frame(delta: float) -> State:
@@ -24,9 +25,3 @@ func process_frame(delta: float) -> State:
 			actions_pressed.erase(key)
 	
 	return null
-
-func _handle_press(event: InputEvent, key: String) -> bool:
-	if event.is_action_pressed(key) and not actions_pressed.has(key):
-		actions_pressed[key] = true
-		return true
-	return false

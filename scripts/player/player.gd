@@ -5,6 +5,7 @@ extends CharacterBody2D
 @onready var animator: AnimationPlayer = $"Animator"
 @onready var collider: CollisionShape2D = $"Collider"
 @onready var sprite: AnimatedSprite2D = $"Sprite"
+@onready var input_buffer: InputBuffer = $"InputBuffer"
 
 func _ready() -> void:
 	state_machine.init()

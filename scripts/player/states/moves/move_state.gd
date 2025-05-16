@@ -7,7 +7,6 @@ var animation: String
 
 func enter() -> void:
 	print(notepad)
-	input_buffer.pop_front()
 	done = false
 	player.animator.animation_finished.connect(func(_animation: String) -> void: done = true)
 	player.animator.play(animation)

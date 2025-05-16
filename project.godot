@@ -10,9 +10,11 @@ config_version=5
 
 [application]
 
-config/name="killmedo"
+config/name="veeo-meow"
+config/version="0.1"
 run/main_scene="uid://plixonlto4yt"
 config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/image="uid://bu8yf84uidcqq"
 config/icon="res://icon.svg"
 
 [display]
