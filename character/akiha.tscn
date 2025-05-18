@@ -1,4 +1,4 @@
-[gd_scene load_steps=92 format=3 uid="uid://c10ouq3wr4ahy"]
+[gd_scene load_steps=146 format=3 uid="uid://c10ouq3wr4ahy"]
 
 [ext_resource type="Texture2D" uid="uid://o3ytsw2olju" path="res://assets/characters/akiha/aki00_000.png" id="1_ju2jg"]
 [ext_resource type="Script" uid="uid://cjefal8k5pxor" path="res://scripts/player/player.gd" id="1_ofn5g"]
@@ -79,12 +79,56 @@
 [ext_resource type="Script" uid="uid://b170b3s8gitsa" path="res://scripts/player/states/moves/standing_normal_b.gd" id="67_epq1p"]
 [ext_resource type="Script" uid="uid://dmuaf1hhlew6f" path="res://scripts/player/states/moves/standing_normal_c.gd" id="68_7omsl"]
 [ext_resource type="Script" uid="uid://djtwwhydl6tfm" path="res://scripts/player/states/moves/victory.gd" id="69_l0bjr"]
+[ext_resource type="Texture2D" uid="uid://b1n3dbt0pqx34" path="res://assets/characters/akiha/aki27_000.png" id="74_3tobd"]
+[ext_resource type="Texture2D" uid="uid://c414xdnrqr7yr" path="res://assets/characters/akiha/aki27_001.png" id="75_pvvj4"]
+[ext_resource type="Texture2D" uid="uid://ctaurk1me1sai" path="res://assets/characters/akiha/aki27_002.png" id="76_2nkch"]
+[ext_resource type="Texture2D" uid="uid://dmwg1v5dikfjc" path="res://assets/characters/akiha/aki27_003.png" id="77_7lg7m"]
+[ext_resource type="Texture2D" uid="uid://by8agr6xcnm1n" path="res://assets/characters/akiha/aki27_004.png" id="78_0jhmg"]
 [ext_resource type="Script" uid="uid://ctglfurfag3hm" path="res://scripts/player/states/moves/standing_normal_bb.gd" id="78_cuxmf"]
+[ext_resource type="Texture2D" uid="uid://c0thujncoguse" path="res://assets/characters/akiha/aki27_005.png" id="79_dysde"]
+[ext_resource type="Texture2D" uid="uid://b6abg60cfwqfa" path="res://assets/characters/akiha/aki27_006.png" id="80_mn4i5"]
 [ext_resource type="Script" uid="uid://du1gumktj3hcp" path="res://scripts/input_buffer.gd" id="81_wv2f5"]
+[ext_resource type="Texture2D" uid="uid://de0hihdo1wjop" path="res://assets/characters/akiha/aki27_007.png" id="81_yfi7c"]
+[ext_resource type="Texture2D" uid="uid://xlixb7de27bj" path="res://assets/characters/akiha/aki27_008.png" id="82_26tbb"]
+[ext_resource type="Texture2D" uid="uid://ck55ry7ro70eu" path="res://assets/characters/akiha/aki27_009.png" id="83_igq6u"]
+[ext_resource type="Texture2D" uid="uid://csr68t7cb84df" path="res://assets/characters/akiha/aki27_010.png" id="84_f0qgj"]
+[ext_resource type="Texture2D" uid="uid://d4bgg5d55ndo0" path="res://assets/characters/akiha/aki27_011.png" id="85_45wp3"]
+[ext_resource type="Texture2D" uid="uid://wk1s1lehj70s" path="res://assets/characters/akiha/aki27_012.png" id="86_h0wlp"]
+[ext_resource type="Texture2D" uid="uid://drmt2hc2a34w7" path="res://assets/characters/akiha/aki26_000.png" id="87_erak4"]
+[ext_resource type="Texture2D" uid="uid://cds8xeoyg61uy" path="res://assets/characters/akiha/aki26_001.png" id="88_wtwu4"]
+[ext_resource type="Texture2D" uid="uid://qqrx8cfec10s" path="res://assets/characters/akiha/aki26_002.png" id="89_oet1c"]
+[ext_resource type="Texture2D" uid="uid://bbdkc4x38fer6" path="res://assets/characters/akiha/aki26_003.png" id="90_vhaum"]
+[ext_resource type="Texture2D" uid="uid://c4cxfkfr4kcst" path="res://assets/characters/akiha/aki26_004.png" id="91_dvlh3"]
+[ext_resource type="Texture2D" uid="uid://cpod8yad8vcjp" path="res://assets/characters/akiha/aki26_005.png" id="92_fhshm"]
+[ext_resource type="Texture2D" uid="uid://bjmg3bydsn6qj" path="res://assets/characters/akiha/aki26_006.png" id="93_ybbl5"]
+[ext_resource type="Texture2D" uid="uid://c3xrvd7gohpay" path="res://assets/characters/akiha/aki26_007.png" id="94_p33fs"]
+[ext_resource type="Texture2D" uid="uid://p5qvr2qhg8dy" path="res://assets/characters/akiha/aki26_008.png" id="95_k6cxn"]
+[ext_resource type="Texture2D" uid="uid://cxgyf4vgaifql" path="res://assets/characters/akiha/aki26_009.png" id="96_ukkaa"]
+[ext_resource type="Texture2D" uid="uid://eedx8c3unftc" path="res://assets/characters/akiha/aki26_010.png" id="97_kedtr"]
+[ext_resource type="Texture2D" uid="uid://bujcebrgc1742" path="res://assets/characters/akiha/aki26_011.png" id="98_omv6y"]
+[ext_resource type="Texture2D" uid="uid://l8qq66wuphoe" path="res://assets/characters/akiha/aki26_012.png" id="99_x1kkr"]
+[ext_resource type="Script" uid="uid://c53flbxc7hjf6" path="res://scripts/hurtbox.gd" id="102_dysde"]
+[ext_resource type="Script" uid="uid://ckeh5g1mrlbsc" path="res://scripts/hitbox.gd" id="105_mn4i5"]
+[ext_resource type="Texture2D" uid="uid://dsbtbxtjh4sm5" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_010.png" id="106_ybbl5"]
+[ext_resource type="Texture2D" uid="uid://dpamtblipjcem" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_011.png" id="107_p33fs"]
+[ext_resource type="Script" uid="uid://cusv0ddbjr3bc" path="res://scripts/player/states/movement/walk_front_start.gd" id="108_2nkch"]
+[ext_resource type="Texture2D" uid="uid://bphav7tprwdy7" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_012.png" id="108_k6cxn"]
+[ext_resource type="Script" uid="uid://cukr53pahuuq5" path="res://scripts/player/states/movement/walk_front.gd" id="109_7lg7m"]
+[ext_resource type="Texture2D" uid="uid://bcppxrp8lpdae" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_013.png" id="109_ukkaa"]
+[ext_resource type="Script" uid="uid://csvns8va7qs3q" path="res://scripts/player/states/movement/walk_back.gd" id="110_0jhmg"]
+[ext_resource type="Texture2D" uid="uid://cjh6doyh1m5nc" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_014.png" id="110_kedtr"]
+[ext_resource type="Script" uid="uid://cgk6sac58dsrm" path="res://scripts/player/states/movement/walk_back_start.gd" id="111_dysde"]
+[ext_resource type="Texture2D" uid="uid://b4axvc2d8ass1" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_015.png" id="111_omv6y"]
+[ext_resource type="Texture2D" uid="uid://bom3sa8xawhlq" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_016.png" id="112_x1kkr"]
+[ext_resource type="Texture2D" uid="uid://blvt2vvcdp248" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_017.png" id="113_hy3kl"]
+[ext_resource type="Texture2D" uid="uid://dlflhfpw8mkyi" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_018.png" id="114_pvjt3"]
+[ext_resource type="Texture2D" uid="uid://chihf5uov488j" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_019.png" id="115_28uhp"]
+[ext_resource type="Texture2D" uid="uid://dtxbonn6hgxsw" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_020.png" id="116_p4hm5"]
+[ext_resource type="Texture2D" uid="uid://f8mjvo7seri8" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_021.png" id="117_5xfwt"]
+[ext_resource type="Texture2D" uid="uid://xu43kiajvlk8" path="res://assets/characters/akiha/effects (MBAC PC)/aki01_022.png" id="118_h1yhn"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_gcpyr"]
-radius = 12.0
-height = 96.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yfi7c"]
+size = Vector2(26, 98)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_gcpyr"]
 animations = [{
@@ -333,6 +377,94 @@ animations = [{
 "loop": true,
 "name": &"victory",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("74_3tobd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_pvvj4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_2nkch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_7lg7m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_0jhmg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_dysde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_mn4i5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_yfi7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_26tbb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_igq6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_f0qgj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_45wp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_h0wlp")
+}],
+"loop": true,
+"name": &"walk_back",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("87_erak4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_wtwu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_oet1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_vhaum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_dvlh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_fhshm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_ybbl5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_p33fs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_k6cxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_ukkaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_kedtr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_omv6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_x1kkr")
+}],
+"loop": true,
+"name": &"walk_front",
+"speed": 5.0
 }]
 
 [sub_resource type="Animation" id="Animation_2uui3"]
@@ -360,6 +492,42 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1),
 "update": 1,
 "values": [0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("StateMachine/5A/Red/AnimatedSprite2D:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"default"]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("StateMachine/5A/Red/AnimatedSprite2D:frame")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("StateMachine/5A/Red/AnimatedSprite2D:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
 }
 
 [sub_resource type="Animation" id="Animation_ju2jg"]
@@ -537,6 +705,165 @@ tracks/1/keys = {
 "values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 }
 
+[sub_resource type="Animation" id="Animation_3tobd"]
+resource_name = "walk_front"
+length = 0.458338
+loop_mode = 1
+step = 0.0416667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"walk_front"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0416667, 0.0833333, 0.125, 0.166667, 0.208333, 0.25, 0.291667, 0.333333, 0.375, 0.416667, 0.458333),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+}
+
+[sub_resource type="Animation" id="Animation_pvvj4"]
+resource_name = "walk_front_start"
+length = 0.0416708
+step = 0.0416667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"walk_front"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_2nkch"]
+resource_name = "walk_back_start"
+length = 0.0416708
+step = 0.0416667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"walk_back"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_7lg7m"]
+resource_name = "walk_back"
+length = 0.458338
+loop_mode = 1
+step = 0.0416667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"walk_back"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0416667, 0.0833333, 0.125, 0.166667, 0.208333, 0.25, 0.291667, 0.333333, 0.375, 0.416671, 0.458338),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 12]
+}
+
+[sub_resource type="Animation" id="Animation_ybbl5"]
+resource_name = "test_red_a"
+length = 1.00001
+step = 0.0769231
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("StateMachine/5A/Red/AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"default"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("StateMachine/5A/Red/AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0769231, 0.153846, 0.230769, 0.307692, 0.384615, 0.461538, 0.538462, 0.615385, 0.692308, 0.769231, 0.846154, 0.923077),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("StateMachine/5A/Red/AnimatedSprite2D:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_lap2w"]
 _data = {
 &"RESET": SubResource("Animation_2uui3"),
@@ -545,14 +872,76 @@ _data = {
 &"standing_normal_b": SubResource("Animation_g2lop"),
 &"standing_normal_bb": SubResource("Animation_64amb"),
 &"standing_normal_c": SubResource("Animation_omlrw"),
-&"victory": SubResource("Animation_pbom6")
+&"test_red_a": SubResource("Animation_ybbl5"),
+&"victory": SubResource("Animation_pbom6"),
+&"walk_back": SubResource("Animation_7lg7m"),
+&"walk_back_start": SubResource("Animation_2nkch"),
+&"walk_front": SubResource("Animation_3tobd"),
+&"walk_front_start": SubResource("Animation_pvvj4")
 }
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_26tbb"]
+size = Vector2(24, 96)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_igq6u"]
+size = Vector2(16, 25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f0qgj"]
+size = Vector2(48, 13)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pnrbh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("106_ybbl5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_p33fs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_k6cxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_ukkaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_kedtr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_omv6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_x1kkr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_hy3kl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_pvjt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_28uhp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_p4hm5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_5xfwt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_h1yhn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
 
 [node name="Akiha" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_ofn5g")
 
 [node name="Collider" type="CollisionShape2D" parent="."]
-shape = SubResource("CapsuleShape2D_gcpyr")
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_yfi7c")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 position = Vector2(1, -38)
@@ -572,62 +961,174 @@ metadata/_custom_type_script = "uid://du1gumktj3hcp"
 script = ExtResource("64_041t4")
 initial_state = NodePath("Idle")
 
-[node name="Idle" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="Hurtbox" type="Node2D" parent="StateMachine"]
+
+[node name="HurtBox" type="Area2D" parent="StateMachine/Hurtbox"]
+script = ExtResource("102_dysde")
+metadata/_custom_type_script = "uid://c53flbxc7hjf6"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StateMachine/Hurtbox/HurtBox"]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_26tbb")
+debug_color = Color(0, 1, 0, 0.419608)
+
+[node name="Idle" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
 script = ExtResource("65_u7fv3")
 state_idle = NodePath(".")
 state_standing_normal_a = NodePath("../5A")
 state_standing_normal_b = NodePath("../5B")
 state_standing_normal_bb = NodePath("../5BB")
 state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath("../WalkBack")
 state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://c773clftoi6qh"
 
-[node name="5A" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="5A" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
 script = ExtResource("66_ofn5g")
 state_idle = NodePath("../Idle")
 state_standing_normal_a = NodePath(".")
 state_standing_normal_b = NodePath("../5B")
 state_standing_normal_bb = NodePath("../5BB")
 state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath("../WalkBack")
 state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://dh3dcgtnrgl88"
 
-[node name="5B" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="HitBox" type="Area2D" parent="StateMachine/5A"]
+script = ExtResource("105_mn4i5")
+metadata/_custom_type_script = "uid://ckeh5g1mrlbsc"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StateMachine/5A/HitBox"]
+position = Vector2(26, -16.5)
+shape = SubResource("RectangleShape2D_igq6u")
+debug_color = Color(1, 0, 0, 0.419608)
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StateMachine/5A/HitBox"]
+position = Vector2(39, -19.5)
+shape = SubResource("RectangleShape2D_f0qgj")
+debug_color = Color(1, 0, 0, 0.419608)
+
+[node name="Red" type="Node2D" parent="StateMachine/5A"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="StateMachine/5A/Red"]
+position = Vector2(-3, -37)
+sprite_frames = SubResource("SpriteFrames_pnrbh")
+
+[node name="5B" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
 script = ExtResource("67_epq1p")
 state_idle = NodePath("../Idle")
 state_standing_normal_a = NodePath("../5A")
 state_standing_normal_b = NodePath(".")
 state_standing_normal_bb = NodePath("../5BB")
 state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath("../WalkBack")
 state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://b170b3s8gitsa"
 
-[node name="5BB" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="5BB" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
 script = ExtResource("78_cuxmf")
 state_idle = NodePath("../Idle")
 state_standing_normal_a = NodePath("../5A")
 state_standing_normal_b = NodePath("../5B")
 state_standing_normal_bb = NodePath(".")
 state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath("../WalkBack")
 state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://ctglfurfag3hm"
 
-[node name="5C" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="5C" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
 script = ExtResource("68_7omsl")
 state_idle = NodePath("../Idle")
 state_standing_normal_a = NodePath("../5A")
 state_standing_normal_b = NodePath("../5B")
 state_standing_normal_bb = NodePath("../5BB")
 state_standing_normal_c = NodePath(".")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath("../WalkBack")
 state_victory_hair_flip = NodePath("../Victory")
 metadata/_custom_type_script = "uid://dmuaf1hhlew6f"
 
-[node name="Victory" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_victory_hair_flip")]
+[node name="Victory" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
 script = ExtResource("69_l0bjr")
 state_idle = NodePath("../Idle")
 state_standing_normal_a = NodePath("../5A")
 state_standing_normal_b = NodePath("../5B")
 state_standing_normal_bb = NodePath("../5BB")
 state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath("../WalkBack")
 state_victory_hair_flip = NodePath(".")
 metadata/_custom_type_script = "uid://djtwwhydl6tfm"
+
+[node name="WalkFront" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
+script = ExtResource("109_7lg7m")
+state_idle = NodePath("../Idle")
+state_standing_normal_a = NodePath("../5A")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath("../5BB")
+state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath(".")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath("../WalkBack")
+state_victory_hair_flip = NodePath("../Victory")
+metadata/_custom_type_script = "uid://cukr53pahuuq5"
+
+[node name="WalkFrontStart" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
+script = ExtResource("108_2nkch")
+state_standing_normal_a = NodePath("../5A")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath("../5BB")
+state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath(".")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath("../WalkBack")
+state_victory_hair_flip = NodePath("../Victory")
+metadata/_custom_type_script = "uid://cusv0ddbjr3bc"
+
+[node name="WalkBack" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
+script = ExtResource("110_0jhmg")
+state_idle = NodePath("../Idle")
+state_standing_normal_a = NodePath("../5A")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath("../5BB")
+state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath("../WalkBackStart")
+state_walk_back = NodePath(".")
+state_victory_hair_flip = NodePath("../Victory")
+metadata/_custom_type_script = "uid://csvns8va7qs3q"
+
+[node name="WalkBackStart" type="Node2D" parent="StateMachine" node_paths=PackedStringArray("state_idle", "state_standing_normal_a", "state_standing_normal_b", "state_standing_normal_bb", "state_standing_normal_c", "state_walk_front_start", "state_walk_front", "state_walk_back_start", "state_walk_back", "state_victory_hair_flip")]
+script = ExtResource("111_dysde")
+state_idle = NodePath("../Idle")
+state_standing_normal_a = NodePath("../5A")
+state_standing_normal_b = NodePath("../5B")
+state_standing_normal_bb = NodePath("../5BB")
+state_standing_normal_c = NodePath("../5C")
+state_walk_front_start = NodePath("../WalkFrontStart")
+state_walk_front = NodePath("../WalkFront")
+state_walk_back_start = NodePath(".")
+state_walk_back = NodePath("../WalkBack")
+state_victory_hair_flip = NodePath("../Victory")
+metadata/_custom_type_script = "uid://cgk6sac58dsrm"
+
+[connection signal="frame_changed" from="Sprite" to="StateMachine/5A" method="_on_sprite_frame_changed"]

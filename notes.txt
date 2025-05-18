@@ -2,5 +2,6 @@ akiha:
 	0. idle
 	1: 5A
 	2: 5B/B
-	
+	26: walk_front
+	27: walk_back
 	
